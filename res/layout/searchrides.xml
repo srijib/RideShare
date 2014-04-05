@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools='http://schemas.android.com/tools'
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/searchreal"
+    android:orientation="vertical"
+    tools:context=".SearchRide" >
+    
+
+    <TextView
+        android:id="@+id/cur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Search For Rides"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="42sp" />
+
+    <EditText
+        android:id="@+id/search_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/search_location"
+        android:layout_below="@+id/search_location"
+        android:layout_marginTop="43dp"
+        android:ems="10"
+        android:hint="Time or Date"
+        android:textColorHint="@android:color/background_dark" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/search_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cur"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="Location"
+        android:textColorHint="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/buttonSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_time"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="Search" />
+
+ 
+
+    <Button
+        android:id="@+id/showAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonSearch"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="Show All Rides" />
+
+</RelativeLayout>

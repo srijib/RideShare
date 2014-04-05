@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.CISC325.rideshare"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- Splash Screen Activity -->
+        <activity
+            android:name="com.CISC325.rideshare.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.CISC325.rideshare.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.CISC325.rideshare.SearchRides"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateVisible|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.CISC325.rideshare.logIn"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.CISC325.rideshare.Database"
+            android:label="@string/title_activity_database" >
+        </activity>
+        <activity
+            android:name="com.CISC325.rideshare.SQLView"
+            android:label="@string/title_activity_sqlview" >
+        </activity>
+        <activity
+            android:name="com.CISC325.rideshare.AddRide"
+            android:label="@string/title_activity_sqlview" >
+        </activity>
+        <activity
+            android:name="com.CISC325.rideshare.LogIn"
+            android:label="@string/title_activity_log_in" >
+        </activity>
+        <activity
+            android:name="com.CISC325.rideshare.SignUp"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name="com.CISC325.rideshare.CurrentRides"
+            android:label="@string/title_activity_current_rides" >
+        </activity>
+        <activity
+            android:name="com.CISC325.rideshare.SQLSearch"
+            android:label="@string/title_activity_sqlsearch" >
+        </activity>
+        <activity
+            android:name="com.CISC325.rideshare.SearchAdd"
+            android:label="@string/title_activity_search_add" >
+        </activity>
+    </application>
+
+</manifest>

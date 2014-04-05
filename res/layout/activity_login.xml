@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loginPasswor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/cur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Log In"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/loginName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cur"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:ems="10"
+        android:hint="Username"
+        android:textColorHint="#FFFFFF" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/loginPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/addRideButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="@string/login" />
+
+    <TextView
+        android:id="@+id/incorrect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/addRideButton"
+        android:layout_below="@+id/cur"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <Button
+        android:id="@+id/s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addRideButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="Sign Up" />
+
+</RelativeLayout>

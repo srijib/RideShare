@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools='http://schemas.android.com/tools'
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/search"
+    android:orientation="vertical"
+    tools:context=".AddRide" >
+
+    <TextView
+        android:id="@+id/cur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Add Ride"
+        android:textSize="42sp" />
+
+    <EditText
+        android:id="@+id/editEndLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/loginPassword"
+        android:layout_below="@+id/loginPassword"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="End Location"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/editTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editEndLocation"
+        android:layout_below="@+id/editEndLocation"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:enabled="true"
+        android:hint="Time"
+        android:inputType="time|text"
+        android:textColorHint="#FFFFFF" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/seats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTime"
+        android:layout_below="@+id/editTime"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Number of Seats"
+        android:textColorHint="#ffffff" />
+
+    <EditText
+        android:id="@+id/editDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seats"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="Date"
+        android:textColorHint="#ffffff" />
+
+    <EditText
+        android:id="@+id/loginPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editDate"
+        android:layout_below="@+id/cur"
+        android:ems="10"
+        android:hint="Start Location"
+        android:textColorHint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/addRideButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editDate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/sucess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cur"
+        android:layout_alignBottom="@+id/cur"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="43dp" />
+
+</RelativeLayout>

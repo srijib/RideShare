@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RideShare</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="SplashScreenDescription">The splash screen that will appear when launching the app.</string>
+    <string name="Splash">Splash Screen</string>
+    <string name="signup">Sign Up</string>
+    <string name="login">Log In</string>
+    <string name="title_activity_database">Database</string>
+    <string name="title_activity_sqlview">SQLView</string>
+    <string name="title_activity_log_in">LogIn</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_current_rides">CurrentRidesActivity</string>
+    <string name="title_activity_sqlsearch">SQLSearch</string>
+    <string name="title_activity_search_add">SearchAdd</string>
+
+</resources>

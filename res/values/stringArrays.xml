@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array 
+        name="rides_array">
+        <item>Driver:Anthony | Pickup :Kingston | Drop Off:Toronto | Pickup Time:3:30PM</item>
+        <item>Driver:Jacob | Pickup :Kingston | Drop Off:Oshawa | Pickup Time:2:30PM</item>
+        <item>Driver:Jaime | Pickup :Kingston | Drop Off:Mississagua | Pickup Time:11:30AM</item>
+        <item>Driver:Alex | Pickup :Kingston | Drop Off:Ottawa | Pickup Time:4:30PM</item>
+    </string-array>
+    
+</resources>
